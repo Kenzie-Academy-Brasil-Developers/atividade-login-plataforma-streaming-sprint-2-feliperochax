@@ -4,15 +4,46 @@
 	<meta charset="UTF-8">
 	<meta content="width=device-width, initial-scale=1" name="viewport" />
 	<link rel="stylesheet" href="css/style.css">
+	
 
 	<title>Netflix</title>
 </head>
 <body>
-	<header>
-		
+
+	<header class="logo">
+		<img class="logo__imagem" src="img/logo.svg" alt="logo">
 	</header>
+
 	<main>
-		
+		<section class="login">
+			<h1 class="login__title">Entrar</h1>
+
+		<form action="" class="login_dados">
+			<input class="login__dados--content" type="email" name="email" placeholder="Email ou número de telefone" required>
+
+			<input class="login__dados--content" type="password" name="senha" placeholder="Senha" required>
+
+			<button class="form__button">Entrar</button>
+
+
+		<div class="form__options">
+
+			<input class="form__option--remember" type="checkbox" name="remember-user" id="remember-user">
+			<label class="form__options--checkbox" for="remember-user">Lembre-se de mim</label>
+
+			<a class="login__help" href="#">Precisa de ajuda?</a>
+
+		</div>
+
+			<p class="form__newclient">Novo por aqui?</p>
+			<a class="form__newclient--link" href="#">Assine agora.</a>
+
+			<p class="form__security">Esta página é protegida pelo Google reCAPTCHA para garantir que você não é um robô. 
+				<a href="#" class="form__security--link">Saiba mais.</a>
+			
+
+		</form>
+		</section>
 	</main>
 	<footer>
 		

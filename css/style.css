@@ -46,14 +46,54 @@ font-family: 'Source Sans Pro', sans-serif;
 
 /* BODY */
 body{
-	
+    margin: 0;
+    padding: 0;
+    font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+    background-image: url(https://raw.githubusercontent.com/Kenzie-Academy-Brasil-Developers/atividade-login-plataforma-streaming-sprint-2-feliperochax/main/img/background-image.jpg);
+    
 }
 /* BODY */
 
 
 /* HEADER */
 header{
-	
+    position: fixed;
+}
+
+.logo__imagem {
+    width: 250px;
+    height: 85px;
+    position: fixed;
+}
+h1 {
+    color: white;
+}
+
+.login {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 450px;
+    padding: 60px 68px 40px;
+    
+
+}
+
+.login__dados {
+    padding: 60px 68px 40px;
+    margin-left: 35%;
+    margin-top: 10%;
+}
+
+.form__button {
+    background-color: red;
+    padding: 10px;
+    border: none;
+    margin-left: 30%;
+}
+
+.login__dados--content {
+    display: block;
+    padding: 20px;
+    margin-left: 30%;
 }
 /* HEADER */
 
